@@ -1,4 +1,5 @@
-These two FORTRAN codes are NWchem RT-TDDFT module files. They are
-used to propagate the density in imaginary time using Runge-Kutta 4th
-order integrator.  prop_imag_RK4_os.F is for open-shell calculation,
-while the other is for closed shell.
+These four FORTRAN codes are NWchem RT-TDDFT module files. They are
+used to propagate the density in real and imaginary time using
+Runge-Kutta 4th order integrator. prop_rk4_os.F and
+prop_imag_RK4_os.F is for open-shell calculations, while the other two
+are for closed shell.
